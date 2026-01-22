@@ -158,6 +158,7 @@ A **4-page interactive Power BI dashboard** was created:
 ---
 
 ## 📁 Repository Structure
+```
 
 ├── notebooks/
 │ ├── 01_Data_Loading_&_Cleaning.ipynb
@@ -177,7 +178,7 @@ A **4-page interactive Power BI dashboard** was created:
 ├── figures/
 ├── README.md
 
-
+```
 
 
 ---
