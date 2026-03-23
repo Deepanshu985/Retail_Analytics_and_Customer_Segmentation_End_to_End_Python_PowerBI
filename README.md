@@ -8,7 +8,7 @@
 
 This project demonstrates an **end-to-end Retail & Marketing Analytics workflow**, covering data cleaning, exploratory analysis, customer analytics, and dashboard creation.
 
-The objective is to transform raw retail transaction data into **actionable business insights** using **Python for analysis** and **Power BI for visualization** **.
+The objective is to transform raw retail transaction data into **actionable business insights** using **Python for analysis** and **Power BI for visualization**.
 
 ---
 
