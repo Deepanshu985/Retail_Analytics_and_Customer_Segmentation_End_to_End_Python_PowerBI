@@ -1,10 +1,10 @@
 
-# 📊 Retail & Marketing Analytics  
+# Retail & Marketing Analytics  
 ### End-to-End Data Analyst Project (Python | Power BI)
 
 ---
 
-## 🔍 Project Overview
+## Project Overview
 
 This project demonstrates an **end-to-end Retail & Marketing Analytics workflow**, covering data cleaning, exploratory analysis, customer analytics, and dashboard creation.
 
@@ -12,18 +12,16 @@ The objective is to transform raw retail transaction data into **actionable busi
 
 ---
 
-## 🎯 Business Objectives
+##  Business Objectives
 
-- Track overall business performance using key KPIs
-- Understand customer purchasing behavior
-- Identify high-value and at-risk customers
-- Analyze customer lifetime value (CLV)
-- Evaluate product and category performance
-- Build an executive-ready interactive dashboard
+- Identify high-value customers using segmentation
+- Analyze sales trends and performance
+- Evaluate product-level profitability
+- Build dashboards to support data-driven decision-making
 
 ---
 
-## 🗂 Dataset Information
+##  Dataset Information
 
 - **Source:** Kaggle – Retail Sales Dataset  
 - **Type:** Transactional retail data  
@@ -39,30 +37,30 @@ The objective is to transform raw retail transaction data into **actionable busi
 
 ---
 
-## 🛠 Tools & Technologies
+## Tools & Technologies
 
-- **Python:** Pandas, NumPy, Matplotlib, Seaborn
+- **Python:** Pandas, Matplotlib, Seaborn
 - **Power BI:** Dashboard design and reporting  
 - **Jupyter Notebook:** Analysis and EDA  
 
 ---
 
-## 🔄 Project Workflow
+## Project Workflow
 
-### 1️⃣ Data Loading & Cleaning (Python)
+### 1️ Data Loading & Cleaning (Python)
 - Loaded raw CSV data into Python
-- Removed duplicates and invalid records
+- Removed duplicates and handled outliers
 - Handled missing values
 - Converted data types (dates, numeric fields)
 - Created derived metrics
 
 ---
 
-### 2️⃣ Exploratory Data Analysis (EDA)
+### 2️ Exploratory Data Analysis (EDA)
 
 Performed multiple types of analysis:
 - **Univariate Analysis:**  
-  Revenue, orders, quantity, CLV distributions
+  Revenue, orders, quantity
 - **Bivariate Analysis:**  
   Customer frequency vs revenue, category vs revenue
 - **Time-Series Analysis:**  
@@ -72,7 +70,7 @@ Performed multiple types of analysis:
 
 ---
 
-### 3️⃣ Customer Analytics
+### 3️ Customer Analytics
 
 #### RFM Segmentation
 Customers were segmented using:
@@ -91,43 +89,40 @@ Segments identified:
 
 ---
 
-### 4️⃣ Power BI Dashboard
+### 4️ Power BI Dashboard
 
-A **4-page interactive Power BI dashboard** was created:
+A **3-page interactive Power BI dashboard** was created:
 
-![Retail Analysis Dashboard](dashboard/Executive_Summary.png)
+![Retail Analysis Dashboard](dashboard/executivesummary.png)
 ![Retail Analysis Dashboard](dashboard/RFM_Analytics.png)
 ![Retail Analysis Dashboard](dashboard/Product_Performance.png)
 ![Retail Analysis Dashboard](dashboard/CLV_Distribution.png)
 
 ---
 
-#### 📌 Page 1: Executive Overview
-- KPIs: Revenue, Orders, Customers, AOV, CLV
+#### Page 1: Executive Overview
+- KPIs: Revenue,Profit, Orders, Customers, AOV, CLV
 - Monthly revenue trend
 - Revenue by category
-- Sales by Product and Sub-Product category
-- Region slicer
+- Sales by Product 
+- Region, category, month slicers
 
-#### 📌 Page 2: Customer Segmentation (RFM)
-- Customer count by segment
-- Revenue contribution by segment
-- Average RFM for each segment
+#### Page 2: Customer Segmentation (RFM and CLV)
+- Customer count by Lifetime Value
+- Revenue contribution by RFM segment
+- Average RFM and CLV for each segment
+- Top 10 High value customers
 
-#### 📌 Page 3: Customer Value (CLV)
-- Average CLV for each segment
-- Top customers by CLV
-
-#### 📌 Page 4: Product Performance
+#### Page 3: Product Performance
 - Top 10 products by revenue
 - Month-wise Quantity sold for each product category
 - Top 10 most sold Product sub category
 - Profit Margin for each Product sub category
-- Region slicer
+- Region and month slicers
 
 ---
 
-## 📈 Key Business Metrics
+##  Key Business Metrics
 
 - **Total Revenue:** $1.08M  
 - **Total Profit:** $198K  
@@ -138,26 +133,26 @@ A **4-page interactive Power BI dashboard** was created:
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 
-- Revenue is highly concentrated among medium value customers
-- Low value Customers have the highest average CLV
-- A large number of customers are low value and needs measures for re-engagement
-- Electronics category brings maximum of revenue
-- Chairs and Phones are the top most products to be sold
-
----
-
-## 📌 Business Recommendations
-
-- Prioritize retention strategies for high value customers
-- Run win-back campaigns for at-risk customers
-- Optimize inventory and promotions for top categories
-- Track KPIs regularly using dashboards
+- Revenue is stable but shows a recent decline - requires investigation
+- Medium-value customers dominate - strong upselling potential
+- Electronics category drives maximum revenue
+- A small group of customers contributes disproportionately to CLV
+- Product profitability varies - need margin-focused strategies
 
 ---
 
-## 📁 Repository Structure
+## Business Recommendations
+
+- Target medium-value customers with loyalty programs to increase CLV
+- Retain high-value customers through personalized offers
+- Investigate revenue drop post-Jan 2023
+- Optimize pricing for low-margin product categories
+
+---
+
+##  Repository Structure
 ```
 
 ├── notebooks/
@@ -183,7 +178,7 @@ A **4-page interactive Power BI dashboard** was created:
 
 ---
 
-## 📌 Project Outcome
+## Project Outcome
 
 This project showcases:
 - End-to-end data analysis workflow
@@ -193,7 +188,7 @@ This project showcases:
 
 ---
 
-## 👤 Author
+## Author
 
 **[Deepanshu Jain]**  
 Data Analyst  
