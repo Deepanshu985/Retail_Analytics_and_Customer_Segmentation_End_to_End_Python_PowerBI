@@ -1,12 +1,12 @@
 
-# Retail & Marketing Analytics  
+# Retail Analytics & Customer Segmentation  
 ### End-to-End Data Analyst Project (Python | Power BI)
 
 ---
 
 ## Project Overview
 
-This project demonstrates an **end-to-end Retail & Marketing Analytics workflow**, covering data cleaning, exploratory analysis, customer analytics, and dashboard creation.
+This project demonstrates an **end-to-end Retail Analytics & Customer Segmentation workflow**, covering data cleaning, exploratory analysis, customer analytics, and dashboard creation.
 
 The objective is to transform raw retail transaction data into **actionable business insights** using **Python for analysis** and **Power BI for visualization**.
 
